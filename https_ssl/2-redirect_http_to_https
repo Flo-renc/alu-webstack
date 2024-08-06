@@ -42,7 +42,7 @@ frontend clickviral-frontend
     default_backend clickviral-backend
 
 frontend clickviral-frontend-https
-    bind *:443 ssl crt /etc/letsencrypt/live/www.mariam24.tech/fullchain.pem crt /etc/letsencrypt/live/www.mariam24.tech/privkey.pem
+    bind *:443 ssl crt /etc/letsencrypt/live/www.florence20kabeya.tech/fullchain.pem crt /etc/letsencrypt/live/www.florence20kabeya.tech/privkey.pem
     http-request set-header X-Forwarded-Proto https
     default_backend clickviral-backend
 
